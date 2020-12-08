@@ -1,0 +1,22 @@
+teste do git via vs code
+alterei o arquivo novamente
+
+---- AULA 04 ----
+
+git commit -m "bla bla bla "  ---> Comando para commitar os arquivos
+
+git config --global user.email"isaque.josias@gmail.com" ---> configura email
+git config --global user.name"silvaij" ---> configura o usuário do player git 
+
+git log --> gera log historico de alterações
+git status --> mostra a situação do diretorio se ha arquivos sem ser mapeado ou em area staging .
+
+git branch --> mostra as branchs existentes
+git branch  + " nomebranc h" - cria uma nova branch
+
+
+
+
+
+
+

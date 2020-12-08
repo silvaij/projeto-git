@@ -1,0 +1,12 @@
+esse é o arquivo não esta na branch mastergit
+
+#COMANDO GIT#
+git branch --> exibe as branchs e o asterico indica em qual está
+git branch +nomeTudoJunto --> cria uma nova branch
+git checkout master --> muda de branch (no caso maste é o identificador da branch)
+
+git log --oneline -  mostra o codigo hash do arquivo
+
+git checkout -b (nomeDaNovaBranch) -- cria e navega para nova branch
+
+git merge ()
