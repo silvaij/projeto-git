@@ -16,6 +16,15 @@ git branch  + " nomebranch" --> cria uma nova branch
 
 git checkout + "nomebranch" --> muda de branch
 
+git log --> historico de alterações
+git log oneline--> mostra os hash dos arquivos
+
+git checkout ---> reverte alteração no arquivo fora de area stage
+
+git reset HEAD "nomeDoArquivo" ---> remove da area de stage
+git reset HARD 
+git reset MIXED
+
 
 
 
