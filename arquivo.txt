@@ -17,13 +17,18 @@ git branch  + " nomebranch" --> cria uma nova branch
 git checkout + "nomebranch" --> muda de branch
 
 git log --> historico de alterações
-git log oneline--> mostra os hash dos arquivos
+git log --oneline --> mostra os hash dos arquivos
 
-git checkout ---> reverte alteração no arquivo fora de area stage
+--------------------------- Reversão da area de Stage somente adicionado e não commitado
+git checkout + nomeDoArquivo ---> reverte alteração no arquivo fora de area stage
 
+--------------------------- Reversão da area de Stage somente adicionado e não commitado
 git reset HEAD "nomeDoArquivo" ---> remove da area de stage
-git reset HARD 
+
+------------------------- Reversão após commit
+git reset --soft + hash do arquivo que queremos reverter (obtido pelo comando git log --oneline)
 git reset MIXED
+git reset HARD 
 
 
 
