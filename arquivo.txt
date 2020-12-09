@@ -25,10 +25,10 @@ git checkout + nomeDoArquivo ---> reverte alteração no arquivo fora de area st
 --------------------------- Reversão da area de Stage somente adicionado e não commitado
 git reset HEAD "nomeDoArquivo" ---> remove da area de stage
 
-------------------------- Reversão após commit
+------------------------- Reversão após commit apaga historico
 git reset --soft + hash do arquivo que queremos reverter (obtido pelo comando git log --oneline)
-git reset MIXED
-git reset HARD 
+git reset --MIXED + hash retorna para fora da area de stage
+git reset --HARD + hash  ja remove com checkout apaga as alterações no arquivo direto
 
 
 
